@@ -1,6 +1,9 @@
 var Blur = function() {
 
  var mouseX, mouseY;
+ const blurObject = document.querySelector('.blur')
+
+
 
  // Nimm die letze Position auf
  var _init = function() {
@@ -22,7 +25,12 @@ var Blur = function() {
   mouseY = e.pageY;
 
 // gib die Mausposition aus
-  console.log(mouseX + " " + mouseY);
+
+ blurObject.style.setProperty('--mouse-x', mouseX + 'px');
+ blurObject.style.setProperty('--mouse-y', mouseY + 'px');
+
+
+
  }
 
 // Gib die Position zurück

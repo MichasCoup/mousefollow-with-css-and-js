@@ -52,12 +52,12 @@
 		},
 	"\/source\/img\/bg.jpg": {
 		"ft": 16384,
-		"iS": 1769337,
+		"iS": 6791475,
 		"oA": 0,
 		"oAP": "\/build\/img\/bg.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/source\/index.html": {
